@@ -7,27 +7,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="16dp"
-    android:fitsSystemWindows="true"
-    >
-
+    android:id="@+id/main"
+    android:padding="16dp">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
-        android:hint="Nome do produto"
-        android:layout_marginTop="18dp"/>
-
+        android:hint="Nome do produto" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="inserir"
         android:id="@+id/button" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:id="@+id/recyclerView" />
-
 </LinearLayout>
