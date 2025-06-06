@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LIsta de compras"
+rootProject.name = "Lista de Compras 3.0"
 include(":app")
  
